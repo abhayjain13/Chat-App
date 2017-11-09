@@ -117,7 +117,7 @@
 <script type="text/javascript">
   var timer;
   var currentId;
-  var io = io('http://localhost:8090');
+  var io = io('https://chatwithstar.herokuapp.com/');
 
   io.on('connected',function(){
     localStorage.setItem('chatId',io.id);
