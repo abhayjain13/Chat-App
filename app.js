@@ -1,4 +1,4 @@
-var port = process.env.port;
+var port = process.env.PORT;
 var http=require('http').createServer(createServer).listen(port);
 var io=require('socket.io')(http);
 var fs=require('fs');
